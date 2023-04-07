@@ -1,0 +1,32 @@
+.all{
+    background-color: rgb(216, 216, 214);
+    margin: auto;
+    width: 1200px;
+    height: 400px;
+}
+.h1{
+    padding-top: 40px;
+}
+.all .title {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(61, 194, 194);
+}
+.form-checkboxe{
+    margin-left: 296px;
+    padding: auto;
+}
+.form-checkboxe .checkbox_item{
+    display: block;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+.checkboxe{
+    width: 30px;
+    height: 30px;
+    color: aqua;
+}
+.but {
+    margin: auto;
+}

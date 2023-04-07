@@ -1,0 +1,79 @@
+.all{
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color: #cce7fd;
+    border: 1px solid azure;
+    width: 550px;
+    height: 250px;
+}
+.title{
+    margin-top: 30px;
+    margin-left: 39px;
+    margin-right: 50px;
+    border: 1px solid palevioletred;
+    background-color: #fde2e6;
+    width: 450px;
+    /* height: 180px; */
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.bt{
+    margin-left: 39px;
+    margin-top: 20px;
+}
+.bt1{
+    background-color: rgb(81, 95, 250);
+    color: white;
+    border: 1px solid black;
+    border-radius: 10%;
+    text-align: center;
+    width: 50px;
+    height: 25px;
+    position: relative;
+}
+/* #a1{
+    height: auto;
+    width: auto;
+} */
+#a2{
+    margin-left: 10px;
+}
+/* .bt2{
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10%;
+    margin-left: 10px;
+    text-align: center;
+} */
+/* #a2{
+    height: 20px;
+    width: 40px;
+} */
+.bt{
+    position: relative;
+}
+#a1{
+    position: relative;
+}
+.ckg{
+    position: absolute;
+    bottom: 35px;
+    left: -25px;
+    width: auto;
+    height: auto;
+    background-color: #cce7fd;
+    text-align: center;
+    border: 1px solid black;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: none;
+}
+#a1:hover {
+    background-color: red;
+}
+#a1:hover ~ .ckg{
+    display: block;
+}

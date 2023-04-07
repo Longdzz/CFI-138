@@ -1,0 +1,30 @@
+.all{
+    text-align: center;
+    margin: 20px auto;
+    width: 1200px;
+    height: 300px;
+    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRUs66Z2btTY1m5yGuVIpGzCMQglBgzbYGb_OeHVWvJyuNBVOIe);
+    background-size: 1200px 300px;
+}
+.chu{
+    color: white;
+    font-size: 18px;
+}
+.chu h2 {
+    padding-top: 58px;
+}
+.chu p{
+    padding-top: 10px;
+}
+.bt1{
+    width: 305px;
+    height: 41px;
+    background-color: orangered;
+    color: white;
+    font-size: 17px;
+    border: hidden;
+    margin-top: 41px;
+}
+.buttons{
+    margin-top: 20px;
+}

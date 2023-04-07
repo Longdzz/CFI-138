@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.all{
+    height: 325px;
+    width: 500px;
+    background: rgb(194, 190, 190);
+    margin: auto;
+    text-align: center;
+    /* padding-top: 50px; */
+    margin-top: 50px;
+    position: relative;
+}
+.bt1{
+    width: 125px;
+    height: 60px;
+    background-color: antiquewhite;
+    border: 1px solid antiquewhite;
+    text-align: center;
+    padding-top: 0px;
+    /* margin-left: -25px; */
+    margin-top: 132px;
+    /* margin-bottom: 122px; */
+    border: 1px solid #f8cc91;
+}
+.bt1 p{
+    font-size: 10px;
+}
+.bt2 {
+    width: 125px;
+    height: 65px;
+    text-align: center;
+    /* padding-top: 10px; */
+}
+.bt2 p{
+    color: white;
+    font-size: 14px;
+}
+#a1 {
+    position: absolute;
+    top: 74px;
+    left: 32px;
+    /* right: 10px; */
+    background-color: greenyellow;
+    border: 1px solid rgb(148, 201, 69);
+}
+#a2 {
+    position: absolute;
+    top: 30px;
+    left: 188px;
+    background-color: #17b817;
+    border: 1px solid green;
+}
+#a3 {
+    position: absolute;
+    top: 74px;
+    right: 30px;
+    background-color: #8686e9;
+    border: 1px solid blue;
+}
+#a4 {
+    position: absolute;
+    bottom: 74px;
+    right: 31px;
+    background-color: #ee3b3b;
+    border: 1px solid red;
+}
+#a5 {
+    position: absolute;
+    /* top: 10px; */
+    left: 188px;
+    bottom: 30px;
+    background-color: #ff95a8;
+    border: 1px solid pink;
+}
+#a6 {
+    position: absolute;
+    bottom: 74px;
+    left: 32px;
+    background-color: #5353f1;
+    border: 1px solid blue;
+}

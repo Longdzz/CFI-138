@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.all {
+    margin: 30px auto;
+    border: 1 solid black;
+    width: 610px;
+    height: 565px;
+    background-color: rgb(204 233 243);
+}
+.bt1{
+    margin-top: 50px;
+    background-color: rgb(212, 253, 148);
+    text-align: center;
+    border: 1px solid rgb(3, 3, 3);
+    width: 530px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 60px;
+}
+.bt1 h3{
+    font-size: 30px;
+    text-align: center;
+}
+.bt2{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 189, 230);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 530px;
+}
+.bt2 p{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+.bt3{
+    margin-top: 20px;
+    margin-left: 40px;
+    background-color: #41b4b4;
+    height: 43px;
+    width: 102px;
+}
+.bt3 a{
+    color: white;
+    font-size: 20px;
+}

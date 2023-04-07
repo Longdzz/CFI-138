@@ -1,0 +1,49 @@
+.all{
+    margin: 15px auto;
+    background-color: aliceblue;
+    width: 1200px;
+    height: 400px;
+    text-align: center;
+}
+.buttons{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.buttons1{
+    width: 137px;
+    height: 46px;
+    background-color: rgb(162 209 209);
+    font-size: 25px;
+    color: white;
+    border: hidden;
+}
+.chu h2{
+    font-size: 45px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+.chu h2 strong{
+    color: #00aeef;
+    font-weight: 600;
+}
+.p{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.but{
+    color: white;
+    background-color: black;
+    width: 236px;
+    height: 52px;
+    font-size: 26px;
+    border: hidden;
+}
+#but1{
+    margin-right: 20px;
+}
+#but2{
+    margin-left: 20px;
+}
+.butt{
+    margin-top: 70px;
+}

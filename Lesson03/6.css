@@ -1,0 +1,114 @@
+.all{
+    margin: 20px auto;
+    height: 450px;
+    width: 1100px;
+    border: 2px double black;
+    background-color:white;
+}
+.title{
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+.title h1{
+    color: #7980a8;
+    font-size: 54px;
+    font-family: emoji;
+}
+.bd1{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+#a1{
+    height: 60px;
+    background-color: white;
+}
+#a1 p{
+    font-size: 18px;
+    font-family: Verdana;
+    text-align: center;
+    margin: auto;
+}
+.bt1{
+    border: 1px solid red;
+    width: 100px;
+}
+.bt1 p{
+    color: red;
+}
+.bt2{
+    border: 1px solid red;
+    width: 160px;
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.bt2 p{
+    color: red;
+}
+.bt3{
+    border: 1px solid blue;
+    width: 120px;
+}
+.bt3 p{
+    color:blue;
+}
+.bd2{
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+#a2{
+    /* height: 85px; */
+    background-color: white;
+}
+/* #a2 p{
+    font-size: 18px;
+     margin: auto;
+    font-family: Verdana;
+    text-align: center;
+} */
+.bt4{
+    border: 1px solid red;
+    width: 80px;
+    padding-bottom: 20px;
+}
+.bt4 p{
+    color: red;
+    font-size: 18px;
+    /* margin: auto; */
+    font-family: Verdana;
+    /* text-align: center; */
+}
+.bt5{
+    border:none;
+    width: 80px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.bt5 p{
+    color: red;
+    font-size: 18px;
+    /* margin: auto; */
+    font-family: Verdana;
+    /* text-align: center; */
+}
+.bt6{
+    border: 1px solid red;
+    width: 80px;
+}
+.bt6 p{
+    color: red;
+    margin-bottom: 20px;
+    font-size: 18px;
+    /* margin: auto; */
+    font-family: Verdana;
+    /* text-align: center; */
+}
+/* .b{
+    display: block;
+} */
+
+

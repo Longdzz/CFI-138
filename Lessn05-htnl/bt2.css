@@ -1,0 +1,27 @@
+.all{
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+.d1{
+    font-size: 30px;
+    background-color: greenyellow;
+    border: 1px solid black;
+    padding: 10px 10px;
+}
+.d2{
+    display: flex;
+}
+.d2a{
+    font-size: 25px;
+    background-color: pink;
+    border: 1px solid black;
+    border-right: none;
+    padding: 10px 10px;
+}
+.d2a:last-child{
+    border: 1px solid black;
+}
