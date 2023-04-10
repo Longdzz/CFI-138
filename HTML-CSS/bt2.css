@@ -1,0 +1,353 @@
+.all{
+    padding: 0px 50px;
+}
+.t1{
+    display: flex;
+    margin-top: 30px;
+    background-color: bisque;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+.t1a{
+    display: flex;
+    align-items: center;
+}
+.t11{
+    height: 60px;
+    background-color: rgb(178, 120, 234);
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+.t12{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+.t1b{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 20px;
+}
+.t13{
+    padding: 0px 20px;
+    font-size: 20px;
+}
+.t14{
+    font-size: 20px;
+    height: 45px;
+    background-color: rgb(130, 130, 220);
+    border: 1px solid blue;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+.t2{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+.t2a{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.t2a1{
+    width: 800px;
+    height: 600px;
+    background-color: rgb(189, 183, 183);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.t2a2a{
+    margin-top: 50px;
+    display: flex;
+    width: 800px;
+    justify-content: space-between;   
+}
+.t2a2aa{
+    width: 170px;
+    height: 150px;
+    background-color: rgb(189, 183, 183);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border: 1px solid black;
+}
+.t2b{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.t2b1{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.t2b2{
+    font-size: 25px;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+.t2b3{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.t2b3a{
+    font-size: 25px;
+    font-weight: bold;
+}
+.t2b3b{
+    margin-top: 30px;
+    display: flex;
+}
+.t2b3b1{
+    font-size: 25px;
+    padding: 10px 30px;
+    border: 1px solid black;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.blue:hover{
+    background-color: rgb(180, 180, 249);
+    border: 1px solid blue;
+}
+.red:hover{
+    background-color: rgb(248, 148, 148);
+    border: 1px solid red;
+}
+.green:hover{
+    background-color: rgb(116, 237, 116);
+    border: 1px solid green;
+}
+.t2b4{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.t2b4a{
+    font-size: 25px;
+    font-weight: bold;
+}
+.t2b4b{
+    margin-top: 35px;
+    display: flex;
+}
+.t2b4a1{
+    font-size: 25px;
+    padding: 10px 30px;
+    border: 1px solid black;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.t2b4a1:hover{
+    background-color: rgb(180, 180, 249);
+    border: 1px solid blue;
+}
+.t2b5{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+.t2b5a{
+     display: flex;
+     margin-top: 20px;
+}
+.t2b5a1{
+    width: 150px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.t2b5a2{
+    font-size: 25px;
+    color: rgb(109, 109, 207);
+}
+.tenp{
+    color: red;
+}
+.t2b6{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+}
+.t2b6a{
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t2b6a form select{
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.t2b6a option{
+    font-size: 25px;
+    display: block;
+    width: 150px;
+    height: 50px;
+    border: none;
+}
+/* .t2b6a form{
+    width: 150px;
+    height: 50px;
+} */
+/* .lbnhe{
+    font-size: 25px;
+} */
+.t2b6b{
+    background-color: rgb(248, 152, 184);
+    border: 1px solid rgb(222, 68, 120);
+    border-radius: 10px;   
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.t2b6b button{
+    border: none;
+    font-size: 25px;
+    background-color: rgb(248, 152, 184);
+}
+.t3{
+    margin-top: 35px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.t3a{
+    font-size: 25px;
+    font-weight: bold;
+}
+.t3b{
+    margin-top: 20px;
+    padding: 15px 15px;
+    border: 1px solid black;
+    width: 1700px;
+}
+.t3b1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.t3b1ab{
+    display: flex;
+}
+.t3b1a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: plum;
+    border: 0.5px solid blueviolet;
+    margin-right: 10px;
+}
+.t3b1b1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.t3b1b{
+    /* position: relative;
+    margin-bottom: 24px; */
+}
+.t3b1b2{
+    /* position: absolute; */
+    font-size: 20px;
+    opacity: 0.6;
+}
+.t3b2{
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 25px;
+}
+.t3b1c{
+    margin-right: 15px;
+}
+.fa-solid fa-star{
+    font-size: 100px;
+}
+.faccc{
+    color: yellow;
+}
+.t3d{
+    display: flex;
+    margin-top: 35px;
+}
+.t3da{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 25px;
+   padding: 5px 5px;
+   border: 1px solid black;
+   margin-right: 20px;
+   width: 50px;
+   height: 50px;
+   border-radius: 10px;
+}
+.ad3t{
+    opacity: 0.2;
+}
+.t4{
+    display: flex;
+    padding-left: 30px;
+    background-color: bisque;
+    border: 1px solid beige;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-top: 35px;
+}
+.t41{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+.t41a{
+    font-size: 25px;
+    font-weight: bold;
+}
+.t41b{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+.t41a1{
+    margin-right: 15px;
+}
+.t41a2{
+    font-size: 25px;
+}
+.t42{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 10px;
+    align-items: center;
+}
+.t42b{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.tt42a{
+    margin-left: 10px;
+}
