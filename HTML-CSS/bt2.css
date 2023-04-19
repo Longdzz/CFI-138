@@ -124,14 +124,17 @@
 .blue:hover{
     background-color: rgb(180, 180, 249);
     border: 1px solid blue;
+    cursor: pointer;
 }
 .red:hover{
     background-color: rgb(248, 148, 148);
     border: 1px solid red;
+    cursor: pointer;
 }
 .green:hover{
     background-color: rgb(116, 237, 116);
     border: 1px solid green;
+    cursor: pointer;
 }
 .t2b4{
     margin-top: 30px;
@@ -159,6 +162,7 @@
 .t2b4a1:hover{
     background-color: rgb(180, 180, 249);
     border: 1px solid blue;
+    cursor: pointer;
 }
 .t2b5{
     display: flex;
@@ -192,20 +196,25 @@
     justify-content: center;
     align-items: center;
 }
-.t2b6a form select{
+.t2b6a input{
     width: 150px;
     height: 50px;
     border: 1px solid black;
     border-radius: 10px;
     font-size: 25px;
+    padding-right: 5px;
+    padding-left: 5px;
     text-align: center;
 }
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1;
+  }
 .t2b6a option{
     font-size: 25px;
     display: block;
-    width: 150px;
-    height: 50px;
-    border: none;
+    /* width: 150px;
+    height: 50px; */
+    /* border: none; */
 }
 /* .t2b6a form{
     width: 150px;

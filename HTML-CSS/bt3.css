@@ -109,6 +109,9 @@ span{
     display: flex;
     align-items: center;
 }
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1;
+  }
 .t2b2b label{
     font-size: 25px;
 }
