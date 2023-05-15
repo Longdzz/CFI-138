@@ -1,0 +1,141 @@
+/* body{
+    text-align: center;
+} */
+.all{
+ background: #E6EAF8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+}
+.body{
+    padding: 100px;
+    background-color: white;
+    border-radius: 20px;
+    width: 1214px;
+    height: 854px;
+}
+.body1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.body1_a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    gap: 25px;
+}
+.body1_a_1{
+    font-family: Merriweather;
+font-size: 32px;
+font-weight: 900;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+}
+.body1_a_2{
+    position: relative;
+}
+.body1_a_2 input{
+    font-size: 10px;
+    padding-left: 69px;
+    padding-top: 18px;
+    padding-bottom: 19px;
+    padding-right: 0px;
+    width: 200px;
+    border-radius: 16px;
+    border: 1px solid #bfc8e6;
+}
+.body1_a_2_b{
+    position: absolute;
+    top:15px;
+    left: 13px;
+}
+.body1_a_2_b i{
+    font-size: 20px;
+}
+.body1_b{
+    display: flex;
+    align-items: end;
+    gap:15px;
+    margin-right: 30px;
+    
+}
+.body1_b_a{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+.body1_b_a{
+    font-size: 17px;
+    padding: 15px 15px;
+    margin: 0px;
+}
+.body1_b_b{
+    background-color: #849FFF;
+    border-radius: 16px;
+}
+.body2{
+    margin-top: 100px;
+    display: flex;
+    gap: 40px;
+}
+.body2_a{
+    display: flex;
+    background-color: #FBFCFF;
+    border-radius: 16px;
+    gap: 16px;
+    padding: 24px;
+    width: 327px;
+    height: 208px;
+}
+.body2_a_2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.body2_a_1{
+    margin-left: 20px;
+}
+.body2_a_2_a{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+.p{
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.p1{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.body2_a_2_bb{
+    display: flex;
+    gap: 10px;
+}
+.body2_a_2_b_1{
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #bfc8e6;
+    border-radius: 16px;
+    padding: 3px 10px;
+    color: #516fd4;
+}
+.body2_a_2_b{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.body22{
+    margin-top: 50px;
+}

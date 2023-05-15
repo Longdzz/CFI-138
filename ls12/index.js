@@ -37,7 +37,7 @@ const Studens = [
         lastName: "A",
         math: 8,
         english: 10,
-        chemestic: 7,
+        chemestic: 3,
     },
     {
         FirstName: "Nguyen",
@@ -51,42 +51,59 @@ const Studens = [
         lastName: "C",
         math: 8,
         english: 7,
-        chemestic: 10,
+        chemestic: 5,
     },
 ];
 
 
-// const preprosetsingst = (Studens)=>{
-//     let result = Studens.map((hocsinh)=>{
-//         const newhocsinh = {
-//             fullName: `${hocsinh.FirstName} ${hocsinh.lastName}`,
-//             gpa: (hocsinh.math + hocsinh.english + hocsinh.chemestic)/3,
-//         };
-//         return newhocsinh;
-//     })
-//     return result;
-// };
-
-
 const preprosetsingst = (Studens)=>{
-    return result = Studens.map((hocsinh)=>{
-        const {FirstName,lastName,math,english,chemestic} = hocsinh;
-        return {
-            fullName: `${FirstName} ${lastName}`,
-            gpa: (math + english + chemestic)/3,
+    let result = Studens.map((hocsinh)=>{
+        const newhocsinh = {
+            fullName: `${hocsinh.FirstName} ${hocsinh.lastName}`,
+            gpa: (hocsinh.math + hocsinh.english + hocsinh.chemestic)/3,
         };
+        return newhocsinh;
     })
+    return result;
 };
 const newhocsinh1 = preprosetsingst(Studens);
 console.log(newhocsinh1);
+for(let i = 0; i < newhocsinh1.length;i++){
+    for(let j = 1; j < newhocsinh1.length;j++){
+        if(newhocsinh1[i].gpa < newhocsinh1[j].gpa){
+            const hocsinhmoi = newhocsinh1[i];
+            newhocsinh1[i] = newhocsinh1[j];
+            newhocsinh1[j] = hocsinhmoi;
+        }
+    }
+}
+console.log(newhocsinh1);
+// const best = newhocsinh1.filter((num1)=>{
+//     const best1 = 0;
+//     if(num1[i].gpa > best1){
+//         best1 = num1[i];
+//     }
+
+// })
+// const preprosetsingst = (Studens)=>{
+//     return result = Studens.map((hocsinh)=>{
+//         const {FirstName,lastName,math,english,chemestic} = hocsinh;
+//         return {
+//             fullName: `${FirstName} ${lastName}`,
+//             gpa: (math + english + chemestic)/3,
+//         };
+//     })
+// };
+// const newhocsinh1 = preprosetsingst(Studens);
+// console.log(newhocsinh1);
 // filter
 const filterfuntion = [1,2,3,4,5,6,7,8,9,10];
 const evenNumber = filterfuntion.filter((num) => {
     const isvennumber = num % 2 === 0;
     return isvennumber;
 })
-
-const evenNumber1 = filterfuntion.filter((num)=> num % 2 === 0);
+console.log(evenNumber);
+// const evenNumber1 = filterfuntion.filter((num)=> num % 2 === 0);
 
 const arr_5 = [1,2,3,4,5]
 const tong_arr = arr_5.reduce((acc,cur)=>{
@@ -110,6 +127,8 @@ const scores = [
 
 const getGPA_2 = (scores) =>{
     return scores.reduce((gpa,subject)=>{
-        return gpa + subject.score + subject.weight;
+        return gpa + subject.score * subject.weight;
     },0);
 }
+const gpa = getGPA_2(scores);
+console.log(gpa);
