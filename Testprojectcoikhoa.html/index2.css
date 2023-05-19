@@ -1,0 +1,16 @@
+/* .team img{
+    width: 200px;
+} */
+.slick_slide{
+    width: 900px;
+    display: flex;
+    gap: 30px;
+}
+.team img{
+    width: 200px;
+}
+.col-3{
+    /* width: 300px; */
+    margin-right: 30px;
+    margin-left: 30px;
+}
