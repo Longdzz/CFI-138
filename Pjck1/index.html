@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./trangchu.css">
+    <link rel="stylesheet" href="./index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -103,6 +103,9 @@
                 <div class="top_bar6_a"><i class="fa-solid fa-image fbfb5"></i></div>
                 <div class="top_bar6_a"><i class="fa-solid fa-user fbfb5"></i></div>
                 
+            </div>
+            <div class="top_bar7">
+                <i class="fa-solid fa-bars"></i>
             </div>
         </div>
     </header>
@@ -276,7 +279,7 @@
                     <i class="fa-solid fa-shield-cat"></i>
                 </div>
                 <div class="lbody3_a_2">
-                    Come To Know What We Have Done About Pets. <br> Done About Pets.
+                    Come To Know What We Have Done About Pets.
                 </div>
                 <div class="lbody3_a_3">
                     Pellentesque maximus augue orci, quis congue purus iaculison id. Maecenas eu lorem quisesdoi massal molestie vulputate in sitagi amet diam. Cras eu odio sit amet ipsum cursus for that gone pellentesquea. thisaton Vestibulum ut aliquet risus. In hac habitasse plateajoa dictumst. Nuncet posuere scelerisque justo in accumsan.
@@ -1020,7 +1023,7 @@
             </div>
         </div>
     </footer>
-    <script src="./trangchu.js"></script>
+    <script src="./index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js" integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="../slick-1.8.1/slick/slick.min.js"></script>
@@ -1064,6 +1067,7 @@
       </script>
       <script type="text/javascript">
         $('.lbody2_d').slick({
+    infinite:true,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
@@ -1072,7 +1076,21 @@
     autoplaySpeed: 2000,
     prevArrow:'<i class="fa-solid fa-angle-left  fa_lbody2_d_1"></i>',
     nextArrow: '<i class="fa-solid fa-angle-right  fa_lbody2_d_2"></i>',
+    responsive: [
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        nextArrow: true,
+        prevArrow: true,
+
+      },
+    },
     
+    
+  ],
     });
       </script>
 
