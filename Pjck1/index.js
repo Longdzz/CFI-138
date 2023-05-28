@@ -97,7 +97,7 @@ function fb1 () {
     lbody7_c_11.style.color = "white"
     lobdy7_dd.style.backgroundColor = " rgb(250, 244, 237)"
     lobdy7_dd.style.color = "black"
-    lbody7_d_4.style.backgroundColor = "white";
+    lbody7_d_4.style.backgroundColor = "white"
     lbody7_d_4.style.color = "black"
     lbody7_d_4.style.border = "1px solid red"
     lbody7_d_2_b_1.innerHTML = "390"
@@ -106,4 +106,21 @@ function fb1 () {
 
 }
 lbody7_c_22.onclick = fb1;
+const accordion1 = document.getElementsByClassName('top_bar55_b_container');
 
+for (i=0; i<accordion1.length; i++) {
+  accordion1[i].addEventListener('click', function () {
+    this.classList.toggle('active')
+  })
+}
+const top_bar4_bb_c = document.getElementById('top_bar4_bb_c');
+const top_bar7 = document.getElementById('top_bar7');
+const top_bar55 = document.getElementById('top_bar55');
+function hien(){
+        top_bar55.style.display = "flex";
+}
+function an(){
+    top_bar55.style.display = "none";
+}
+top_bar7.onclick = hien;
+top_bar4_bb_c.onclick = an;
